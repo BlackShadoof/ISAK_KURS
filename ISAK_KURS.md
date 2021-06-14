@@ -102,9 +102,8 @@ ExecStart=/home/vladislav/project/projectvenv/bin/uwsgi --ini project.ini
 [Install]  
 WantedBy=multi-user.target 
 ```
-# 8)Настройка Nginx.
-    1)sudo vi /etc/nginx/nginx.conf  
-# 9)Результат.
+ 
+# 8)Результат.
 1)![2021-06-13_18-05-05](https://user-images.githubusercontent.com/67752728/121814936-56d8ec80-cc7c-11eb-8996-30465a6879b5.png)
 2)![2021-06-13_18-08-46](https://user-images.githubusercontent.com/67752728/121814942-648e7200-cc7c-11eb-9b5b-aed91196dbc7.png)
 
