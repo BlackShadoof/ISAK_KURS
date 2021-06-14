@@ -94,11 +94,11 @@ vacuum = true
 Description=uWSGI for project  
 After=network.target  
 [Service]  
-User=vladislav  
+User=blcshdf  
 Group=nginx  
-WorkingDirectory=/home/vladislav/project  
-Environment="PATH=/home/vladislav/project/projectvenv/bin"  
-ExecStart=/home/vladislav/project/projectvenv/bin/uwsgi --ini project.ini  
+WorkingDirectory=/home/blcshdf/project  
+Environment="PATH=/home/blcshdf/project/projectvenv/bin"  
+ExecStart=/home/blcshdf/project/projectvenv/bin/uwsgi --ini project.ini  
 [Install]  
 WantedBy=multi-user.target 
 ```
